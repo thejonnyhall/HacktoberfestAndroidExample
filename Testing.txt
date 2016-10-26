@@ -1,0 +1,7 @@
+Instructions:
+
+1. Make a pull request for a particular file
+
+2. Enjoy!
+
+## Admin please add to this
