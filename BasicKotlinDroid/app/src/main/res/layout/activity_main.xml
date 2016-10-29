@@ -11,7 +11,19 @@
     tools:context="hacktoberfest.muhrifqii.basickotlindroid.MainActivity">
 
     <TextView
+        android:id="@+id/tv_hello"
+        android:layout_centerInParent="true"
+        android:textSize="24sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/btn_kotlin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="kotlin"
+        android:layout_below="@id/tv_hello"/>
 </RelativeLayout>
